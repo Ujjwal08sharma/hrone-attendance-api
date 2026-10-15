@@ -28,9 +28,21 @@ MongoDB **6.0 or newer** is required (the grader uses 7.0). MongoDB Atlas free t
 A public Git repository with `app/main.py`, `requirements.txt`, `REVIEW.md`, `DECISIONS.md` and a short `README.md`.
 No `.env`, no secrets, no Dockerfile.
 
+
+
 Run: uvicorn app.main:app --port 8000
 
 Env vars: MONGO\_URI, MONGO\_DB
 
-Status: Starter app only. Not implemented: punch-out, PATCH correction, analytics endpoints, explain endpoint. REVIEW.md has partial findings.
+
+
+Status: I did not get to the implementation in time. app/main.py is
+
+the provided starter, unchanged. Not done: Part A bug fixes, punch-out,
+
+PATCH correction, analytics endpoints, explain endpoint.
+
+REVIEW.md and DECISIONS.md describe my planned approach, not
+
+implemented code.
 
