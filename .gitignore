@@ -2,3 +2,6 @@
 venv/
 __pycache__/
 sample_data/
+Run: uvicorn app.main:app --port 8000
+Env vars: MONGO_URI, MONGO_DB
+Status: Part B endpoints (punch-out, PATCH, analytics, explain) are not implemented yet.
